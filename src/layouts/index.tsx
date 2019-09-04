@@ -16,9 +16,9 @@ const BasicLayout: React.FC = props => {
           <Menu.Item key="app1">
             <Link to="/app1">App1</Link>
           </Menu.Item>
-          <Menu.Item key="app2">
-            <Link to="/app2">App2</Link>
-          </Menu.Item>
+          {/*<Menu.Item key="app2">*/}
+          {/*  <Link to="/app2">App2</Link>*/}
+          {/*</Menu.Item>*/}
         </Menu>
       </Header>
       <Content className={style.content}>
